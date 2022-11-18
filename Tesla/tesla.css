@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-weight: 700;
+}
+
+#wrapper{
+    height: 100vh;
+}
+
+.img1{
+    background-image: url(img/model-3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.img2{
+    background-image: url(img/model-y.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.img3{
+    background-image: url(img/model-s.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.img4{
+    background-image: url(img/model-x.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.img5{
+    background-image: url(img/solar-panel.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.img6{
+    background-image: url(img/solar-roof.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.img7{
+    background-image: url(img/accessories.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    padding: 2rem;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+
+.img1 h1{
+    position: absolute;
+    top: 8rem;
+    left: 40rem;
+    font-size: 3rem;
+}
+
+
+.img1 h5{
+    font-size: 1rem;
+    font-weight: 70;
+    position: absolute;
+    top: 12rem;
+    left: 38rem;
+}
+
+
+.img1 .button1 {
+    position: absolute;
+    top: 38rem;
+    left: 32rem;
+    padding: 0.5rem 4.5rem;
+    border: 1px solid rgba(23, 26, 32, 0.8);
+    background-color: rgba(23, 26, 32, 0.8);
+    border-radius: 2rem;
+}
+
+.button1 a{
+    color: white;
+}
+
+.img1 .button2 {
+    position: absolute;
+    top: 38rem;
+    left: 49rem;
+    padding: 0.5rem 3.5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+
+.button2 a{
+    color: black;
+}
+
+.img1 a{
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.img1 .icon i{
+    font-size: 1.5em;
+    opacity: 0.7;
+    transform: translateY(0);
+    animation-name: icon;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    
+}
+.img1 .icon{
+    position: absolute;
+    top: 44em;
+    left: 48em;
+    
+}
+
+@keyframes icon {
+    0%{transform: translateY(0);}
+    20%{transform: translateY(0);}
+    40%{transform: translateY(5px);}
+    60%{transform: translateY(10px);}
+    80%{transform: translateY(10px);}
+    100%{transform: translateY(0);}
+}
+
+.img2 h1{
+    position: absolute;
+    top: 8rem;
+    left: 40rem;
+    font-size: 3rem;
+}
+
+
+.img2 h5{
+    font-size: 1rem;
+    font-weight: 70;
+    position: absolute;
+    top: 12rem;
+    left: 38rem;
+}
+
+.img2 .button1 {
+    position: absolute;
+    top: 42rem;
+    left: 32rem;
+    padding: 0.5rem 4.5rem;
+    border: 1px solid rgba(23, 26, 32, 0.8);
+    background-color: rgba(23, 26, 32, 0.8);
+    border-radius: 2rem;
+}
+
+.button1 a{
+    color: white;
+}
+
+.img2 .button2 {
+    position: absolute;
+    top: 42rem;
+    left: 49rem;
+    padding: 0.5rem 3.5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+
+.button2 a{
+    color: black;
+}
+
+.img2 a{
+    text-decoration: none;
+    font-weight: 100;
+}
+
+
+.img3 h1{
+    position: absolute;
+    top: 8rem;
+    left: 40rem;
+    font-size: 3rem;
+}
+
+
+.img3 h5{
+    font-size: 1rem;
+    font-weight: 70;
+    position: absolute;
+    top: 12rem;
+    left: 38rem;
+}
+
+
+.img3 .button1 {
+    position: absolute;
+    top: 41rem;
+    left: 32rem;
+    padding: 0.5rem 4.5rem;
+    border: 1px solid rgba(23, 26, 32, 0.8);
+    background-color: rgba(23, 26, 32, 0.8);
+    border-radius: 2rem;
+}
+
+.button1 a{
+    color: white;
+}
+
+.img3 .button2 {
+    position: absolute;
+    top: 41rem;
+    left: 49rem;
+    padding: 0.5rem 3.5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+
+.button2 a{
+    color: black;
+}
+
+.img3 a{
+    text-decoration: none;
+    font-weight: 100;
+}
+
+
+.img4 h1{
+    position: absolute;
+    top: 8rem;
+    left: 40rem;
+    font-size: 3rem;
+}
+
+
+.img4 h5{
+    font-size: 1rem;
+    font-weight: 70;
+    position: absolute;
+    top: 12rem;
+    left: 38rem;
+}
+
+
+.img4 .button1 {
+    position: absolute;
+    top: 41rem;
+    left: 32rem;
+    padding: 0.5rem 4.5rem;
+    border: 1px solid rgba(23, 26, 32, 0.8);
+    background-color: rgba(23, 26, 32, 0.8);
+    border-radius: 2rem;
+}
+
+.button1 a{
+    color: white;
+}
+
+.img4 .button2 {
+    position: absolute;
+    top: 41rem;
+    left: 49rem;
+    padding: 0.5rem 3.5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+
+.button2 a{
+    color: black;
+}
+
+.img4 a{
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.img5 h1{
+    position: absolute;
+    top: 8rem;
+    left: 40rem;
+    font-size: 3rem;
+}
+
+
+.img5 h5{
+    font-size: 1rem;
+    font-weight: 70;
+    position: absolute;
+    top: 12rem;
+    left: 41.5rem;
+}
+
+.img5 .button1 {
+    position: absolute;
+    top: 43rem;
+    left: 32rem;
+    padding: 0.5rem 4.5rem;
+    border: 1px solid rgba(23, 26, 32, 0.8);
+    background-color: rgba(23, 26, 32, 0.8);
+    border-radius: 2rem;
+}
+
+.button1 a{
+    color: white;
+}
+
+.img5 .button2 {
+    position: absolute;
+    top: 43rem;
+    left: 49rem;
+    padding: 0.5rem 3.5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+
+.button2 a{
+    color: black;
+}
+
+.img5 a{
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.img6 h1{
+    position: absolute;
+    top: 8rem;
+    left: 40rem;
+    font-size: 3rem;
+}
+
+
+.img6 h5{
+    font-size: 1rem;
+    font-weight: 70;
+    position: absolute;
+    top: 12rem;
+    left: 39rem;
+}
+
+
+.img6 .button1 {
+    position: absolute;
+    top: 43rem;
+    left: 32rem;
+    padding: 0.5rem 4.5rem;
+    border: 1px solid rgba(23, 26, 32, 0.8);
+    background-color: rgba(23, 26, 32, 0.8);
+    border-radius: 2rem;
+}
+
+.button1 a{
+    color: white;
+}
+
+.img6 .button2 {
+    position: absolute;
+    top: 43rem;
+    left: 49rem;
+    padding: 0.5rem 3.5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+
+.button2 a{
+    color: black;
+}
+
+.img6 a{
+    text-decoration: none;
+    font-weight: 100;
+}
+
+
+.img7 h1{
+    position: absolute;
+    top: 8rem;
+    left: 40rem;
+    font-size: 3rem;
+}
+
+.img7 .button1 {
+    position: absolute;
+    top: 41rem;
+    left: 41.5rem;
+    padding: 0.5rem 4.5rem;
+    border: 1px solid rgba(23, 26, 32, 0.8);
+    background-color: rgba(23, 26, 32, 0.8);
+    border-radius: 2rem;
+}
+
+.button1 a{
+    color: white;
+}
+
+.img7 a{
+    text-decoration: none;
+    font-weight: 100;
+}
